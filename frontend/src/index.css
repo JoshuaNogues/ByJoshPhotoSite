@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: theme('fontFamily.body');
+    background-color: theme('colors.ivory');
+    color: theme('colors.charcoal');
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center gap-2 rounded-full border border-charcoal px-6 py-3 text-sm font-medium uppercase tracking-[0.2em] transition;
+  }
+
+  .btn-primary {
+    @apply bg-charcoal text-ivory hover:bg-stone;
+  }
+
+  .btn-outline {
+    @apply bg-transparent text-charcoal hover:bg-charcoal hover:text-ivory;
+  }
+
+  .section-title {
+    @apply text-3xl font-semibold uppercase tracking-[0.3em] text-stone sm:text-4xl;
+  }
+
+  .section-subtitle {
+    @apply mt-4 max-w-xl text-base text-charcoal/80 sm:text-lg;
+  }
+}
