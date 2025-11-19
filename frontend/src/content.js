@@ -1,4 +1,5 @@
 import heroImage from '../photos/front image.png';
+import heroAccent from '../photos/feel the moment.png';
 import portraitImage from '../photos/me.png';
 import imageOne from '../photos/BJP07325.jpg';
 import imageTwo from '../photos/DSC02063.jpg';
@@ -18,25 +19,45 @@ export const navigation = [
 
 export const heroContent = {
   image: heroImage,
+  accentImage: heroAccent,
   eyebrow: 'By Josh Photo',
-  title: 'Moments that feel like home.',
+  title: 'Artful imagery for the wildly in love.',
+  tagline: 'Editorial wedding & lifestyle photography rooted in feeling, texture, and timeless elegance.',
   description:
-    'Documenting honest, intimate stories with a refined cinematic touch. Serving couples, families, and brands who value artfully preserved memories.',
-  primaryCta: { label: 'Start your story', href: '#contact' },
-  secondaryCta: { label: 'View portfolio', href: '#portfolio' },
+    'Guiding you with intention while leaving space for the in-between. By Josh Photo delivers galleries that feel cinematic yet honest—woven together with film, digital, and a reverence for atmosphere.',
+  primaryCta: { label: 'Begin your inquiry', href: '#contact' },
+  secondaryCta: { label: 'Explore the work', href: '#portfolio' },
+  features: ['Based in Nashville', 'Traveling worldwide', 'Film + digital workflow'],
 };
 
 export const aboutContent = {
   image: portraitImage,
   heading: 'Photography with heart and presence.',
+  tagline: 'A bespoke experience shaped by trust, direction, and ease.',
   copy: [
     'I believe the best photographs feel like a deep breath—a quiet reflection of who you are in this season of life.',
     'From the first email to your finished gallery, I build space for connection, ease, and thoughtful direction so we can create images that feel timeless and alive.',
   ],
+  quote: '“Josh balances editorial direction with soulful storytelling. The result is imagery that feels lived-in and endlessly chic.”',
+  signature: 'Joshua — lead photographer',
   stats: [
-    { figure: '10+', label: 'years crafting heartfelt imagery' },
-    { figure: '250', label: 'stories told across the East Coast' },
-    { figure: '35mm', label: 'film + digital hybrid workflow' },
+    { figure: '10+', label: 'Years crafting heartfelt imagery' },
+    { figure: '250', label: 'Stories told across the East Coast' },
+    { figure: '35mm', label: 'Film + digital hybrid workflow' },
+  ],
+  values: [
+    {
+      title: 'Guided with intention',
+      description: 'Thoughtful direction and customized timelines so you can be fully present.',
+    },
+    {
+      title: 'Editorial meets organic',
+      description: 'Romantic portraits balanced with documentary candids to tell the whole story.',
+    },
+    {
+      title: 'Heirloom delivery',
+      description: 'Fine-art albums, handcrafted boxes, and online galleries ready to share.',
+    },
   ],
 };
 

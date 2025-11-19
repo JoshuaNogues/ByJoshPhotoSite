@@ -10,7 +10,7 @@ import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
 
 const App = () => (
-  <div className="bg-ivory text-charcoal">
+  <div className="bg-linen text-ink">
     <Navbar />
     <main className="space-y-0">
       <Hero />

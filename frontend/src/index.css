@@ -10,8 +10,14 @@
 
   body {
     font-family: theme('fontFamily.body');
-    background-color: theme('colors.ivory');
-    color: theme('colors.charcoal');
+    background-color: theme('colors.linen');
+    color: theme('colors.ink');
+    line-height: 1.6;
+  }
+
+  ::selection {
+    background-color: theme('colors.ink');
+    color: theme('colors.linen');
   }
 
   a {
@@ -21,22 +27,30 @@
 
 @layer components {
   .btn {
-    @apply inline-flex items-center gap-2 rounded-full border border-charcoal px-6 py-3 text-sm font-medium uppercase tracking-[0.2em] transition;
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-ink px-8 py-3 text-[0.72rem] uppercase tracking-[0.4em] transition hover:translate-y-0.5;
   }
 
   .btn-primary {
-    @apply bg-charcoal text-ivory hover:bg-stone;
+    @apply bg-ink text-linen hover:bg-dusk;
   }
 
   .btn-outline {
-    @apply bg-transparent text-charcoal hover:bg-charcoal hover:text-ivory;
+    @apply bg-transparent text-ink hover:bg-ink hover:text-linen;
+  }
+
+  .btn-soft {
+    @apply border-transparent bg-porcelain text-ink hover:bg-almond;
+  }
+
+  .eyebrow {
+    @apply text-[0.65rem] uppercase tracking-[0.45em] text-dusk/70;
   }
 
   .section-title {
-    @apply text-3xl font-semibold uppercase tracking-[0.3em] text-stone sm:text-4xl;
+    @apply font-display text-4xl text-ink sm:text-5xl;
   }
 
   .section-subtitle {
-    @apply mt-4 max-w-xl text-base text-charcoal/80 sm:text-lg;
+    @apply mt-4 max-w-2xl text-base text-dusk;
   }
 }
