@@ -1,6 +1,6 @@
-import heroImage from '../photos/front image.png';
-import heroAccent from '../photos/feel the moment.png';
-import portraitImage from '../photos/me.png';
+import heroImage from '../photos/BJP09724.jpg';
+import heroAccent from '../photos/jen and ben.jpeg';
+import portraitImage from '../photos/BJP05100-2.jpg';
 import imageOne from '../photos/BJP07325.jpg';
 import imageTwo from '../photos/DSC02063.jpg';
 import imageThree from '../photos/jovi.JPG';

@@ -6,7 +6,7 @@ const Hero = () => (
     id="hero"
     className="relative overflow-hidden bg-ink pt-32 pb-24 text-linen"
     style={{
-      backgroundImage: `linear-gradient(120deg, rgba(8, 6, 5, 0.92), rgba(15, 12, 10, 0.65)), url(${heroContent.image})`,
+      backgroundImage: `linear-gradient(120deg, rgba(8, 6, 5, 0.3), rgba(15, 12, 10, 0.65)), url(${heroContent.image})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
     }}
