@@ -1,15 +1,25 @@
 import { motion } from 'framer-motion';
 import { storyHighlights } from '../content.js';
+import backgroundImage from '../../photos/BJP04437.jpg';
 
 const Stories = () => (
-  <section id="stories" className="scroll-mt-32 bg-linen py-24">
-    <div className="mx-auto max-w-6xl px-6">
+  <section
+    id="stories"
+    className="scroll-mt-32 relative overflow-hidden py-24 text-linen"
+    style={{
+      backgroundImage: `linear-gradient(120deg, rgba(8, 6, 5, 0.9), rgba(18, 15, 13, 0.6)), url(${backgroundImage})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+    }}
+  >
+    <div className="absolute inset-0 bg-ink/20" aria-hidden="true" />
+    <div className="relative mx-auto max-w-6xl px-6">
       <div className="mb-12 flex flex-col gap-6 text-center lg:flex-row lg:items-end lg:justify-between lg:text-left">
         <div>
-          <p className="eyebrow">Signature stories</p>
-          <h2 className="section-title">Weekend celebrations & intimate moments, told with depth.</h2>
+          <p className="eyebrow text-linen/80">Signature stories</p>
+          <h2 className="section-title text-white">Weekend celebrations & intimate moments, told with depth.</h2>
         </div>
-        <a href="#portfolio" className="btn btn-outline self-center text-[0.68rem]">
+        <a href="#portfolio" className="btn border-white/60 text-white hover:bg-white/90 hover:text-ink self-center text-[0.68rem]">
           View full portfolio
         </a>
       </div>
@@ -21,7 +31,7 @@ const Stories = () => (
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ delay: index * 0.1 }}
-            className="group flex flex-col overflow-hidden rounded-[2.5rem] border border-porcelain/70 bg-white/90 shadow-soft"
+            className="group flex flex-col overflow-hidden rounded-[2.5rem] border border-white/30 bg-white/85 text-dusk shadow-soft"
           >
             <div className="relative aspect-[4/5] overflow-hidden">
               <img

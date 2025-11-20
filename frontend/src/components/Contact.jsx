@@ -1,8 +1,17 @@
 import { motion } from 'framer-motion';
 import logo from '../../photos/logo.PNG';
+import contactBackground from '../../photos/DSC03316.jpg';
 
 const Contact = () => (
-  <section id="contact" className="scroll-mt-32 relative overflow-hidden bg-ink py-24 text-linen">
+  <section
+    id="contact"
+    className="scroll-mt-32 relative overflow-hidden bg-ink py-24 text-linen"
+    style={{
+      backgroundImage: `linear-gradient(120deg, rgba(5, 4, 4, 0.92), rgba(10, 8, 7, 0.65)), url(${contactBackground})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+    }}
+  >
     <div className="absolute inset-0 opacity-40" aria-hidden="true">
       <div className="h-full w-full bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.2),_transparent_55%)]" />
     </div>

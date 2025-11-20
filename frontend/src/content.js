@@ -20,11 +20,11 @@ export const navigation = [
 export const heroContent = {
   image: heroImage,
   accentImage: heroAccent,
-  eyebrow: 'By Josh Photo',
+  eyebrow: 'Couples Photography',
   title: 'Artful imagery for the wildly in love.',
   tagline: 'Editorial wedding & lifestyle photography rooted in feeling, texture, and timeless elegance.',
   description:
-    'Guiding you with intention while leaving space for the in-between. By Josh Photo delivers galleries that feel cinematic yet honest—woven together with film, digital, and a reverence for atmosphere.',
+    'Guiding you with intention while leaving space for the in-between. Josh delivers galleries that feel cinematic yet honest—woven together with film, digital, and a reverence for atmosphere.',
   primaryCta: { label: 'Begin your inquiry', href: '#contact' },
   secondaryCta: { label: 'Explore the work', href: '#portfolio' },
   features: ['Based in Nashville', 'Traveling worldwide', 'Film + digital workflow'],
@@ -33,15 +33,15 @@ export const heroContent = {
 export const aboutContent = {
   image: portraitImage,
   heading: 'Photography with heart and presence.',
-  tagline: 'A bespoke experience shaped by trust, direction, and ease.',
+  tagline: 'A natural experience shaped by trust, direction, and ease.',
   copy: [
-    'I believe the best photographs feel like a deep breath—a quiet reflection of who you are in this season of life.',
+    'I believe the best photographs don’t just preserve a memory—they allow you to step back into the moment.',
     'From the first email to your finished gallery, I build space for connection, ease, and thoughtful direction so we can create images that feel timeless and alive.',
   ],
   quote: '“Josh balances editorial direction with soulful storytelling. The result is imagery that feels lived-in and endlessly chic.”',
   signature: 'Joshua — lead photographer',
   stats: [
-    { figure: '10+', label: 'Years crafting heartfelt imagery' },
+    { figure: '7+', label: 'Years crafting heartfelt imagery' },
     { figure: '250', label: 'Stories told across the East Coast' },
     { figure: '35mm', label: 'Film + digital hybrid workflow' },
   ],
@@ -56,7 +56,7 @@ export const aboutContent = {
     },
     {
       title: 'Heirloom delivery',
-      description: 'Fine-art albums, handcrafted boxes, and online galleries ready to share.',
+      description: 'Fine-art albums, quality photos, and online galleries ready to share.',
     },
   ],
 };
@@ -64,18 +64,21 @@ export const aboutContent = {
 export const services = [
   {
     title: 'Weddings & Elopements',
+    price: '$2,750',
     description:
       'Editorial storytelling that honors the atmosphere of your day—capturing genuine emotion, elegant details, and every in-between moment.',
     deliverables: ['Full-day coverage', 'Timeline planning support', 'Heirloom albums & prints'],
   },
   {
     title: 'Couples & Engagements',
+    price: '$300',
     description:
       'From mountaintops to city streets, we craft sessions that feel personal and grounded in your shared story.',
     deliverables: ['Flexible locations', 'Wardrobe guidance', 'Film add-ons available'],
   },
   {
     title: 'Lifestyle & Brand',
+    price: '$300',
     description:
       'Thoughtful imagery for creatives, makers, and boutique brands seeking a refined visual identity that still feels warm.',
     deliverables: ['Creative direction', 'Studio or on-location', 'Launch-ready galleries'],
@@ -112,7 +115,7 @@ export const storyHighlights = [
     image: imageFour,
   },
   {
-    title: 'Rawil & Angie',
+    title: 'Angie & Rawil',
     description: 'An effortless coastal elopement filled with laughter, film grain, and sea breeze.',
     image: imageFive,
   },

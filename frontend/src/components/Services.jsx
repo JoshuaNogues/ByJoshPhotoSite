@@ -7,7 +7,7 @@ const Services = () => (
       <div className="mb-12 text-center">
         <p className="eyebrow">Offerings</p>
         <h2 className="section-title">Tailored collections for every chapter.</h2>
-        <p className="section-subtitle">
+        <p className="section-subtitle mx-auto">
           Each experience is crafted with timelines, art direction, and intentional communication so you can
           settle in and savor the day.
         </p>
@@ -27,6 +27,7 @@ const Services = () => (
               <span className="font-display text-3xl text-ink">0{index + 1}</span>
             </div>
             <h3 className="mt-6 font-display text-3xl text-ink">{service.title}</h3>
+            <p className="text-[0.7rem] uppercase tracking-[0.35em] text-dusk/70">Starting at {service.price}</p>
             <p className="mt-4 flex-1 text-sm text-dusk">{service.description}</p>
             <ul className="mt-6 space-y-3 text-[0.7rem] uppercase tracking-[0.35em] text-dusk/70">
               {service.deliverables.map((item) => (
