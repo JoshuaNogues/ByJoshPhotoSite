@@ -1,12 +1,12 @@
 import heroImage from '../photos/BJP09724.jpg';
 import heroAccent from '../photos/jen and ben.jpeg';
 import portraitImage from '../photos/BJP05100-2.jpg';
-import imageOne from '../photos/BJP07325.jpg';
+import imageOne from '../photos/BJP03198.jpg';
 import imageTwo from '../photos/DSC02063.jpg';
 import imageThree from '../photos/jovi.JPG';
 import imageFour from '../photos/lizandleo.jpg';
 import imageFive from '../photos/rawil and angie.jpeg';
-import imageSix from '../photos/jen and ben.jpeg';
+import imageSix from '../photos/BJP06499.jpg';
 
 export const navigation = [
   { label: 'About', href: '#about' },
