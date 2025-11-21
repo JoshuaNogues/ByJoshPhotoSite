@@ -3,7 +3,7 @@ import heroAccent from '../photos/jen and ben.jpeg';
 import portraitImage from '../photos/BJP05100-2.jpg';
 import imageOne from '../photos/BJP03198.jpg';
 import imageTwo from '../photos/DSC02063.jpg';
-import imageThree from '../photos/jovi.JPG';
+import imageThree from '../photos/BJP06589.jpg';
 import imageFour from '../photos/lizandleo.jpg';
 import imageFive from '../photos/rawil and angie.jpeg';
 import imageSix from '../photos/BJP06499.jpg';
@@ -55,8 +55,8 @@ export const aboutContent = {
       description: 'Romantic portraits balanced with documentary candids to tell the whole story.',
     },
     {
-      title: 'Heirloom delivery',
-      description: 'Fine-art albums, quality photos, and online galleries ready to share.',
+      title: 'Professional delivery',
+      description: 'Fine-art albums, and high-quality photos delivered in online galleries ready to share.',
     },
   ],
 };
